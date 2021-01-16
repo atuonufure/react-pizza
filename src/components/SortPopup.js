@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 
-const SortPopup = ({ items }) => {
-  const [visiblePopup, setVisiblePopup] = useState(false);
-  const [activeItem, setActiveItem] = useState(0);
-  const sortRef = useRef();
+const SortPopup = React.memo(function ({ items }) {
+  const [visiblePopup, setVisiblePopup] = React.useState(false);
+  const [activeItem, setActiveItem] = React.useState(0);
+  const sortRef = React.useRef();
   const activeLabel = items[activeItem].name;
 
   const handleOutsideClick = (e) => {
@@ -17,7 +17,7 @@ const SortPopup = ({ items }) => {
     setVisiblePopup(false);
   };
 
-  useEffect(() => {
+  React.useEffect(() => {
     document.body.addEventListener('click', handleOutsideClick);
   }, []);
 
@@ -56,6 +56,6 @@ const SortPopup = ({ items }) => {
       )}
     </div>
   );
-};
+});
 
 export default SortPopup;
