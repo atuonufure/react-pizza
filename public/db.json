@@ -27,7 +27,7 @@
         "types": [0],
         "sizes": [26, 40],
         "price": 295,
-        "category": 1,
+        "category": 2,
         "rating": 4
       },
       {
@@ -57,7 +57,7 @@
         "types": [0],
         "sizes": [30, 40],
         "price": 580,
-        "category": 2,
+        "category": 0,
         "rating": 2
       },
       {
@@ -67,7 +67,7 @@
         "types": [0, 1],
         "sizes": [26, 30, 40],
         "price": 675,
-        "category": 1,
+        "category": 0,
         "rating": 9
       },
       {
@@ -97,8 +97,58 @@
         "types": [0, 1],
         "sizes": [26, 30, 40],
         "price": 285,
-        "category": 5,
+        "category": 1,
         "rating": 7
+      },
+      {
+        "id": 10,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b5bcdd10-2215-4bc7-8661-2f6c4b434348.jpg",
+        "name": "Двойная пепперони",
+        "types": [0],
+        "sizes": [26, 30, 40],
+        "price": 445,
+        "category": 0,
+        "rating": 8
+      },
+      {
+        "id": 11,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/3354e3c2-8ce0-4d64-a11d-eb4c455b29c6.jpg",
+        "name": "Мексиканская",
+        "types": [0, 1],
+        "sizes": [30, 40],
+        "price": 445,
+        "category": 3,
+        "rating": 10
+      },
+      {
+        "id": 12,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/54537b28-c154-414a-bfd5-fc5b993af275.jpg",
+        "name": "Пицца-пирог",
+        "types": [0, 1],
+        "sizes": [26, 30],
+        "price": 345,
+        "category": 1,
+        "rating": 7
+      },
+      {
+        "id": 13,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/87e1d77c49bb414996427627c6eff085_584x584.jpeg",
+        "name": "Карбонара",
+        "types": [1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 4,
+        "rating": 10
+      },
+      {
+        "id": 14,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/737841adb41c47738e435f4968221374_584x584.jpeg",
+        "name": "Запеченное яблоко",
+        "types": [1],
+        "sizes": [26, 30, 40],
+        "price": 345,
+        "category": 1,
+        "rating": 8
       }
     ]
   }
