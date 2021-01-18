@@ -1,4 +1,4 @@
-## React Pizza App
+## Pizza Store App
 
 Try the application live [https://react-pizza-rtw.herokuapp.com/](https://react-pizza-rtw.herokuapp.com/)
 
