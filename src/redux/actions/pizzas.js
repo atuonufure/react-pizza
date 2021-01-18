@@ -13,7 +13,7 @@ export const fetchPizzas = (sortBy, category) => (dispatch) => {
 
   axios
     .get(
-      `https://react-pizza-rtw.herokuapp.com/pizzas?${
+      `https://react-pizza-rtw-server.herokuapp.com/pizzas?${
         category !== null ? `category=${category}` : ''
       }&_sort=${sortBy.type}&_order=${sortBy.order}`,
     )
